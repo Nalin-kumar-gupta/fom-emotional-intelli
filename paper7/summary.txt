@@ -1,0 +1,72 @@
+The paper "Emotional intelligence: predictor of employees’ wellbeing, quality of patient care, and psychological empowerment" by Karimi et al. explores how emotional intelligence (EI) affects employee wellbeing, psychological empowerment, and quality of patient care within an aged care setting in Australia. The study provides evidence that emotional intelligence is a critical factor in improving employee performance and wellbeing, particularly in healthcare sectors like aged care, where emotional and psychological factors play significant roles in service quality.
+
+Background
+
+The study is set against the backdrop of increasing demands on healthcare organizations to improve performance, particularly in response to factors such as organizational restructuring, the growing importance of social skills, and the pressures induced by crises like the COVID-19 pandemic. Healthcare organizations have begun recognizing non-clinical skills like EI as central to improving employee satisfaction, engagement, and quality of care.
+
+Emotional intelligence is defined as the ability to perceive, process, and manage emotions effectively, both in oneself and others. Previous research has shown that higher levels of EI correlate with better job performance, psychological wellbeing, job satisfaction, and organizational commitment. The paper builds on this foundation by examining EI’s specific role in an aged care environment, focusing on the employees' perceived empowerment, wellbeing, and the quality of patient care they deliver.
+
+Study Hypotheses
+
+The study is based on three key hypotheses:
+
+1. Emotional intelligence predicts employee wellbeing: Employees with higher EI are expected to experience better psychological and emotional health.
+
+
+2. Emotional intelligence predicts psychological empowerment: Employees with higher EI are believed to feel more empowered in their roles.
+
+
+3. Emotional intelligence predicts the quality of patient care: Employees with higher EI are expected to deliver better quality care to aged care residents.
+
+
+
+Methods
+
+The research was conducted with 78 participants, including nurses, personal care workers (PCW), and lifestyle and food service staff from an aged care organization in Victoria, Australia. The average participant age was 45.7 years, and they had an average of 12 years of experience in their roles. The majority of participants (82%) were female.
+
+Data Collection: Participants completed self-administered surveys designed to measure several constructs:
+
+Emotional Intelligence: Measured using the Emotional Quotient Inventory (EQ-i 2.0), which assesses social and emotional aspects via 133 Likert scale questions.
+
+General Wellbeing: Assessed using the General Well-being Questionnaire (GWBQ), a 24-item scale.
+
+Psychological Empowerment: Measured using the Psychological Empowerment Scale, which includes 12 statements on a 5-point Likert scale.
+
+Quality of Patient Care: Assessed using the Patient Satisfaction with Nursing Care Quality Questionnaire (PSNCQQ), modified to fit an aged care setting by removing irrelevant items such as those related to discharge coordination.
+
+
+Data Analysis
+
+The data were analyzed using Structural Equation Modeling (SEM) via AMOS software. This method was selected to evaluate the relationships between the variables of interest (EI, wellbeing, psychological empowerment, and quality of care). Due to the small sample size, a bootstrapping approach was used to ensure the robustness of the parameter estimates. Several fit indices were applied to assess the model, including the Comparative Fit Index (CFI) and the Root Mean Square Error of Approximation (RMSEA).
+
+Results
+
+The analysis confirmed that emotional intelligence significantly predicts psychological empowerment, wellbeing, and quality of patient care, supporting the three hypotheses.
+
+1. Psychological Empowerment: The study found a positive relationship between EI and psychological empowerment (β = 0.34), indicating that employees with higher EI feel more empowered in their roles. This empowerment is tied to intrinsic motivation and a sense of control, which, according to prior research, leads to better job performance.
+
+
+2. Wellbeing: There was a negative correlation between EI and ill health (β = -0.26), suggesting that employees with higher EI experience better emotional and psychological wellbeing. This finding aligns with previous studies indicating that individuals with high EI are better at managing stress and emotional challenges in the workplace, contributing to better overall health.
+
+
+3. Quality of Patient Care: EI also positively influenced the quality of care provided by staff (β = 0.26). Employees with higher EI were found to be more responsive to patients' emotional and social needs, leading to improved patient outcomes and satisfaction.
+
+
+
+The findings of this study emphasize the importance of emotional intelligence in improving both employee satisfaction and organizational outcomes in healthcare. Emotional intelligence not only enhances individual wellbeing and psychological empowerment but also translates into better service quality, particularly in emotionally demanding environments like aged care.
+
+Discussion
+
+The results suggest that emotional intelligence is a valuable asset for healthcare workers, particularly in the aged care sector. Employees with higher EI are more likely to feel empowered and deliver higher-quality patient care, which, in turn, may lead to improved resident satisfaction and better health outcomes. Given the ongoing challenges in healthcare, such as staff shortages and high turnover rates, the study highlights the potential of EI training programs as an effective intervention for enhancing employee retention, satisfaction, and performance.
+
+The study also provides evidence that emotionally intelligent employees are better equipped to handle the demands of aged care, which requires not only clinical skills but also emotional and social awareness. By fostering a more emotionally intelligent workforce, healthcare organizations can improve both employee wellbeing and patient outcomes.
+
+Limitations
+
+While the findings are promising, the study has several limitations. The sample size of 78 participants is relatively small, which limits the generalizability of the results. Additionally, the study was conducted in a single aged care organization in Australia, which may not be representative of other healthcare settings or geographic regions. The cross-sectional design of the study also limits the ability to draw causal conclusions from the data. Future research with larger sample sizes and longitudinal designs is recommended to further explore the relationships between EI, wellbeing, psychological empowerment, and patient care quality.
+
+Conclusion
+
+This study underscores the importance of emotional intelligence in the aged care sector. By demonstrating that higher EI is associated with better wellbeing, greater psychological empowerment, and improved quality of patient care, the findings suggest that interventions aimed at enhancing EI could have significant benefits for both employees and patients. Emotional intelligence training programs could be a valuable tool for healthcare organizations seeking to improve employee satisfaction, reduce turnover, and enhance patient outcomes.
+
+The research highlights the need for further exploration into non-clinical skills, like EI, as a means of addressing some of the most pressing challenges in the healthcare industry, particularly in the context of aged care.

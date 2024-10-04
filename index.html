@@ -125,7 +125,7 @@
 
             try {
                 // Get the current content of the file to update it
-                const fileResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`, {
+                const fileResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/${filePath}`, {
                     headers: {
                         'Authorization': `token ${token}`,
                         'Accept': 'application/vnd.github.v3+json',

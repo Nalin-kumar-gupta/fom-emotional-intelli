@@ -1,0 +1,15 @@
+The paper explores how transformational leadership (TFL) and workgroup emotional intelligence (WEI) contribute to the development of affective organizational commitment (AOC) at both the individual and team levels. Using a time-lagged multilevel approach, data were collected from 63 work teams in Spain, involving 233 employees. The study found that supervisors’ transformational leadership style plays a role in directly and indirectly mediating AOC development through WEI at the individual level. However, at the team level, while the relationships are similar, no direct link was found between TFL and AOC.
+
+Key findings include:
+
+Transformational Leadership and Workgroup Emotional Intelligence: Transformational leadership is positively linked with workgroup emotional intelligence both at the individual and team levels. Transformational leaders are able to enhance emotional intelligence within the team, which subsequently boosts affective organizational commitment.
+
+Transformational Leadership and Affective Organizational Commitment: There is a direct association between transformational leadership and affective organizational commitment at the individual level. However, this direct link is not observed at the team level.
+
+Workgroup Emotional Intelligence and Affective Organizational Commitment: Workgroup emotional intelligence positively correlates with affective organizational commitment at both the individual and team levels. This suggests that teams with higher emotional intelligence are more likely to exhibit stronger commitment to the organization.
+
+Mediating Role of Workgroup Emotional Intelligence: Workgroup emotional intelligence acts as a mediator in the relationship between transformational leadership and affective organizational commitment at both the individual and team levels. This indicates that the influence of transformational leadership on organizational commitment is channeled through its impact on the emotional intelligence of the team.
+
+Practical Implications: The study emphasizes the value of emotional intelligence in teams and underscores the importance of developing transformational leadership and emotional intelligence as strategies to enhance both individual and team-level commitment to the organization.
+
+This research provides a multilevel perspective on how leadership and emotional factors interact to foster organizational commitment, advancing the understanding of how affective organizational commitment emerges and is sustained.

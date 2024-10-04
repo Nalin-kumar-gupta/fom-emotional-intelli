@@ -93,7 +93,7 @@
             </div>
         </div>
 
-        <!-- Repeat similar structure for remaining questions -->
+        <!-- Add other questions here -->
 
         <!-- Submit Button -->
         <button type="button" class="submit" onclick="submitForm()">Submit Survey</button>
@@ -101,14 +101,13 @@
     </form>
 
     <script>
-        function submitForm() {
-            // Validate form before submission
+        async function submitForm() {
             const form = document.getElementById('surveyForm');
             if (!form.checkValidity()) {
                 alert('Please fill out all questions.');
                 return;
             }
-            
+
             // Collect form data
             const formData = new FormData(form);
             let responseData = '';
@@ -117,18 +116,56 @@
                 responseData += `${key}: ${value}\n`;
             });
 
-            // Save as file
-            const blob = new Blob([responseData], { type: 'text/plain' });
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(blob);
-            link.download = 'survey-responses.txt';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            
-            // Alert user and reset form
-            alert('Thank you for your submission! Please upload the file to GitHub for it to be publicly viewable.');
-            form.reset();
+            // GitHub repo details
+            const token = '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'; // Replace with your GitHub token
+            const repoOwner = 'Nalin-kumar-gupta'; // Replace with your GitHub username
+            const repoName = 'fom-emotional-intelli'; // Replace with your repo name
+            const filePath = 'survey-responses.txt'; // The file to which you want to append data
+            const commitMessage = 'Append survey response'; // Commit message
+
+            try {
+                // Get the current content of the file to update it
+                const fileResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`, {
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                    },
+                });
+
+                if (!fileResponse.ok) {
+                    throw new Error('Failed to fetch file information');
+                }
+
+                const fileData = await fileResponse.json();
+                const oldContent = atob(fileData.content); // Decode existing content
+                const newContent = oldContent + '\n' + responseData; // Append new data
+                const newEncodedContent = btoa(newContent); // Encode to base64
+
+                // Update the file on GitHub with new content
+                const updateResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: commitMessage,
+                        content: newEncodedContent,
+                        sha: fileData.sha, // Required for updating existing file
+                    }),
+                });
+
+                if (!updateResponse.ok) {
+                    throw new Error('Failed to update file');
+                }
+
+                alert('Thank you for your submission! Your response has been recorded.');
+                form.reset();
+            } catch (error) {
+                console.error('Error:', error);
+                alert('There was a problem submitting your response.');
+            }
         }
     </script>
 

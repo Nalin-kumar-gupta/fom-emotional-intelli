@@ -1,0 +1,17 @@
+The research paper titled “The impact of emotional intelligence, servant leadership, and psychological safety on employee’s innovative behavior with the moderating effect of task interdependence in Lahore, Pakistan” investigates the relationships among these constructs within IT companies in Lahore. Here’s a detailed summary of the key aspects of the research:
+
+	1.	Research Objective and Methodology:
+	•	The study aimed to assess how emotional intelligence, servant leadership, and psychological safety influence employees’ innovative behavior, with task interdependence acting as a moderating factor.
+	•	Data was collected through questionnaires from 230 employees in Lahore’s IT sector using convenience sampling.
+	2.	Key Findings:
+	•	Emotional Intelligence and Servant Leadership: The study found that emotional intelligence significantly enhances servant leadership. Leaders with high emotional intelligence are better at understanding and managing both their own and others’ emotions, which positively influences their leadership effectiveness.
+	•	Servant Leadership and Psychological Safety: Servant leadership positively affects psychological safety, creating an environment where employees feel safe to express ideas and take risks without fear of negative consequences.
+	•	Psychological Safety and Innovative Behavior: There is a positive relationship between psychological safety and innovative behavior, indicating that when employees feel secure, they are more likely to engage in innovative activities.
+	•	Task Interdependence: Task interdependence positively moderates the relationship between psychological safety and innovative behavior. In environments where tasks are highly interdependent, psychological safety further enhances employees’ willingness to innovate.
+	3.	Implications:
+	•	Theoretical: The findings contribute to existing literature by demonstrating the interconnectedness of emotional intelligence, servant leadership, psychological safety, and innovative behavior, particularly highlighting the role of task interdependence as a significant moderator.
+	•	Practical: For IT companies, fostering an environment that promotes emotional intelligence and servant leadership can enhance psychological safety and encourage innovative behavior among employees.
+	4.	Conclusion:
+	•	The study concludes that cultivating emotional intelligence and servant leadership can significantly impact an organization’s psychological safety climate, thereby promoting innovation, especially in settings where employees’ tasks are interdependent.
+
+This comprehensive analysis provides insights into how various facets of leadership and team dynamics influence innovation within the IT sector, suggesting that both personal traits of leaders and the structural aspects of teamwork are crucial for fostering an innovative organizational culture.

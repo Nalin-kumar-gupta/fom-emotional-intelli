@@ -1,0 +1,21 @@
+This scoping review titled “Thirty Years of Emotional Intelligence: A Scoping Review of Emotional Intelligence Training Programme Among Nurses” provides an in-depth analysis of emotional intelligence (EI) training programs targeted at nurses over the past three decades. The review aims to evaluate the effectiveness of these programs in enhancing nurses’ emotional intelligence and its subsequent impact on their mental health, job performance, and organizational success. Here are the key extracts and findings from the review:
+
+	1.	Background on Emotional Intelligence (EI):
+	•	Emotional Intelligence is defined as the ability to monitor one’s own and others’ emotions, to differentiate between different feelings, and to use this information to guide thinking and actions. It is crucial for nurses because it helps manage personal emotions and interpersonal relationships, which are integral to the caregiving process.
+	2.	Review Methodology:
+	•	The review utilized electronic databases like MEDLINE, CINAHL, Scopus, and others, searching for studies published between 1990 and 2021. Out of 728 studies initially retrieved, only 7 met the inclusion criteria for final analysis, employing the PRISMA-ScR checklist for reporting.
+	3.	Effectiveness of EI Training Programs:
+	•	All included studies reported significant improvements in EI post-training among nurses. These enhancements were associated with better psychological resilience, reduced stress and anxiety levels, improved leadership qualities, and better patient-nurse interactions.
+	•	The interventions varied significantly, ranging from short-term workshops to extensive multi-year programs, indicating a lack of standardization in the duration and content of EI training.
+	4.	Types of Interventions:
+	•	The interventions included workshops, seminars, and lecture-based sessions. Some programs were more intensive, involving continuous learning phases and practical implementations in clinical settings.
+	5.	Impact on Nursing Practice:
+	•	Improved EI was linked to better workplace functioning, with nurses showing greater ability to cope with the emotional demands of caregiving, reduced burnout rates, and enhanced patient care outcomes.
+	•	Training also led to improvements in interpersonal communication and conflict resolution skills among nurses, which are critical for effective teamwork and patient interaction.
+	6.	Gaps and Recommendations:
+	•	The review noted substantial variability in study designs, sample sizes, and outcome measures across the studies, which could affect the generalizability of the results.
+	•	It recommends more robust, standardized, and long-term studies to provide clearer evidence on the impact of EI training. Additionally, integrating EI training into regular nursing education and ongoing professional development could be beneficial.
+	7.	Conclusions for Clinical Practice:
+	•	The findings underscore the importance of EI in nursing, suggesting that healthcare institutions should consider regular EI enhancement programs as part of professional development for nurses to improve care delivery and workplace well-being.
+
+This comprehensive review highlights the positive effects of emotional intelligence training on nurses’ professional and personal development and points towards a need for more structured and standardized approaches in future EI training initiatives.

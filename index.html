@@ -5,58 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emotional Intelligence and Teamwork Survey</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-        }
-        h1, h2 {
-            text-align: center;
-            color: #333;
-        }
-        .question {
-            margin: 20px 0;
-        }
-        .scale {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 10px;
-        }
-        .scale label {
-            flex-grow: 1;
-            text-align: center;
-            margin: 5px;
-        }
-        .scale input {
-            margin-right: 10px;
-        }
-        .submit {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-        .submit:hover {
-            background-color: #45a049;
-        }
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; background-color: #f9f9f9; }
+        h1, h2 { text-align: center; color: #333; }
+        .question { margin: 20px 0; }
+        .scale { display: flex; justify-content: space-around; margin-top: 10px; }
+        .scale label { flex-grow: 1; text-align: center; margin: 5px; }
+        .scale input { margin-right: 10px; }
+        .submit { display: block; width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; font-size: 16px; margin-top: 20px; border-radius: 5px; }
+        .submit:hover { background-color: #45a049; }
     </style>
 </head>
 <body>
 
     <h1>Survey on Emotional Intelligence and Teamwork</h1>
-    <form id="surveyForm">
 
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form
+        action="https://formspree.io/f/xanyweaz"
+        method="POST"
+    >
         <h2>Part 1: Respondents’ Characteristics</h2>
+
+        <div class="question">
+            <label>Your email:</label><br>
+            <input type="email" name="email" required>
+        </div>
 
         <div class="question">
             <label>1) Gender:</label><br>
@@ -93,81 +66,18 @@
             </div>
         </div>
 
-        <!-- Add other questions here -->
+        <!-- Repeat for additional questions, like EA2, EA3, etc. -->
 
-        <!-- Submit Button -->
-        <button type="button" class="submit" onclick="submitForm()">Submit Survey</button>
+        <!-- Free-form message box (optional) -->
+        <div class="question">
+            <label>Your message:</label><br>
+            <textarea name="message" rows="5"></textarea>
+        </div>
 
+        <!-- your other form fields go here -->
+
+        <button type="submit" class="submit">Submit Survey</button>
     </form>
-
-    <script>
-        async function submitForm() {
-            const form = document.getElementById('surveyForm');
-            if (!form.checkValidity()) {
-                alert('Please fill out all questions.');
-                return;
-            }
-
-            // Collect form data
-            const formData = new FormData(form);
-            let responseData = '';
-
-            formData.forEach((value, key) => {
-                responseData += `${key}: ${value}\n`;
-            });
-
-            // GitHub repo details
-            const token = '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'; // Replace with your GitHub token
-            const repoOwner = 'Nalin-kumar-gupta'; // Replace with your GitHub username
-            const repoName = 'fom-emotional-intelli'; // Replace with your repo name
-            const filePath = 'survey-responses.txt'; // The file to which you want to append data
-            const commitMessage = 'Append survey response'; // Commit message
-
-            try {
-                // Get the current content of the file to update it
-                const fileResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/${filePath}`, {
-                    headers: {
-                        'Authorization': `token ${token}`,
-                        'Accept': 'application/vnd.github.v3+json',
-                    },
-                });
-
-                if (!fileResponse.ok) {
-                    throw new Error('Failed to fetch file information');
-                }
-
-                const fileData = await fileResponse.json();
-                const oldContent = atob(fileData.content); // Decode existing content
-                const newContent = oldContent + '\n' + responseData; // Append new data
-                const newEncodedContent = btoa(newContent); // Encode to base64
-
-                // Update the file on GitHub with new content
-                const updateResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`, {
-                    method: 'PUT',
-                    headers: {
-                        'Authorization': `token ${token}`,
-                        'Accept': 'application/vnd.github.v3+json',
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        message: commitMessage,
-                        content: newEncodedContent,
-                        sha: fileData.sha, // Required for updating existing file
-                    }),
-                });
-
-                if (!updateResponse.ok) {
-                    throw new Error('Failed to update file');
-                }
-
-                alert('Thank you for your submission! Your response has been recorded.');
-                form.reset();
-            } catch (error) {
-                console.error('Error:', error);
-                alert('There was a problem submitting your response.');
-            }
-        }
-    </script>
 
 </body>
 </html>

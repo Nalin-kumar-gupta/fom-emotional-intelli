@@ -1,0 +1,34 @@
+The study aimed to analyze the relationship between emotional intelligence and teamwork among university students. The tests and surveys used, along with the results obtained, are summarized below:
+
+Tests and Scales Used:
+Emotional Intelligence Assessment:
+
+Measured four dimensions: emotional awareness, emotional usage, emotional understanding, and emotional controlling.
+An 18-item scale was adapted from the original 33-item Schutte Self-Report Inventory (SSRI).
+Reliability and validity were tested using statistical software (SPSS 24.0 and AMOS 24.0).
+Cronbach's alpha for all variables ranged from 0.776 to 0.888, confirming reliability.
+Teamwork Results Assessment:
+
+Measured using a 6-item scale proposed by Volet and Mansfield (2006).
+The scale evaluated aspects like timely task completion, calm and control, support among team members, adaptability, and scenario planning.
+Confirmatory Factor Analysis (CFA):
+
+The model's validity was confirmed with measures like Chi-Square, GFI, CFI, TLI, and RMSEA.
+Indicators for convergent validity such as standardized estimates, Average Variance Extracted (AVE), and Composite Reliability (CR) were within acceptable ranges.
+Structural Equation Modeling (SEM):
+
+SEM analysis was used to explore the structural relationships between emotional intelligence and teamwork performance.
+The model fit well, with Chi-Square/df, GFI, CFI, TLI, and RMSEA values indicating a good fit.
+Surveys Conducted:
+The survey was conducted among 372 university students in Vietnam.
+Questionnaire Structure:
+Part 1: Gathered demographic data (gender, year of study, frequency of teamwork).
+Part 2: Assessed emotional intelligence and teamwork performance using a 5-point Likert scale.
+Sampling Process:
+Universities in Hanoi's economic sector provided lists of students.
+60-70 students were randomly selected from each university, and the survey was conducted in person.
+Data was collected from July to October 2020.
+Results:
+The tests confirmed the scales' reliability and validity in measuring emotional intelligence and teamwork performance among university students.
+The findings revealed a significant relationship between the dimensions of emotional intelligence and teamwork performance, suggesting emotional intelligence as a predictor of effective teamwork.
+This study provides insight into how emotional intelligence influences teamwork, serving as a reference for scholars, managers, and educators to enhance teamwork among students.
